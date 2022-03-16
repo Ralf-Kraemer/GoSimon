@@ -1,7 +1,12 @@
 ## GoSimon – Gamified Group Chats  
 ###### (Working Title; unfinished)
+
 #  
-##### Key ideas:  
+
+#### App Icon / Logo:
+![GoSimon-Logo](./app/GoSimon/assets/images/ios/gs-icon-ios-180.png)
+
+#### Key ideas:  
 
 1. An algorithm matches groups of people, ideally small groups of about 4-20, using similarities in location, interests and potentially other parameters as weights/factors ([See also](https://github.com/Ralf-Kraemer/Matching-Algo-Sandbox-Prototype))  
 
@@ -15,11 +20,7 @@ Prompts can be news, memes, jokes, fun facts, discussion topics, and riddles, as
 
 4. The bot also serves as a moderator, tracking inequalities and imbalances, counting votes, and enforcing rules.
 
-
-
-###
-
-##### (Intended) Tech Stack:
+#### (Intended) Tech Stack:
   
 Frontend: Angular Web App serves as GUI, wrapped for Android and iOS with Cordova  
 Backend: CouchDB
