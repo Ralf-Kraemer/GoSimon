@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="eu.ralfkraemer.gosimon" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GoSimon</name>
+    <description>
+        One of the best chat applications there are. GoSiomon uses AI to connect you with like-minded people nearby.
+    </description>
+    <author email="hello@ralfkraemer.eu" href="https://ralfkraemer.eu">
+        Ralf Krämer
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>

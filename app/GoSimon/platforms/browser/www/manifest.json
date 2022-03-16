@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "GoSimon",
+  "short_name": "GoSimon",
+  "version": "eu.ralfkraemer.gosimon",
+  "description": "One of the best chat applications there are. GoSiomon uses AI to connect you with like-minded people nearby.",
+  "author": "Ralf Krämer",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="eu.ralfkraemer.gosimon" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
+    </feature>
+    <feature name="CDVCrypt">
+        <param name="ios-package" value="CDVCrypt" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>GoSimon</name>
+    <description>
+        One of the best chat applications there are. GoSiomon uses AI to connect you with like-minded people nearby.
+    </description>
+    <author email="hello@ralfkraemer.eu" href="https://ralfkraemer.eu">
+        Ralf Krämer
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <icon height="180" src="assets/images/ios/gs-icon-ios-180.png" width="180" />
+    <icon height="60" src="assets/images/ios/gs-icon-ios-60.png" width="60" />
+    <icon height="120" src="assets/images/ios/gs-icon-ios-120.png" width="120" />
+    <icon height="76" src="assets/images/ios/gs-icon-ios-76.png" width="76" />
+    <icon height="152" src="assets/images/ios/gs-icon-ios-152.png" width="152" />
+    <icon height="40" src="assets/images/ios/gs-icon-ios-40.png" width="40" />
+    <icon height="80" src="assets/images/ios/gs-icon-ios-80.png" width="80" />
+    <icon height="57" src="assets/images/ios/gs-icon-ios-57.png" width="57" />
+    <icon height="114" src="assets/images/ios/gs-icon-ios-114.png" width="114" />
+    <icon height="72" src="assets/images/ios/gs-icon-ios-72.png" width="72" />
+    <icon height="144" src="assets/images/ios/gs-icon-ios-144.png" width="144" />
+    <icon height="167" src="assets/images/ios/gs-icon-ios-167.png" width="167" />
+    <icon height="29" src="assets/images/ios/gs-icon-ios-29.png" width="29" />
+    <icon height="58" src="assets/images/ios/gs-icon-ios-58.png" width="58" />
+    <icon height="87" src="assets/images/ios/gs-icon-ios-87.png" width="87" />
+    <icon height="50" src="assets/images/ios/gs-icon-ios-50.png" width="50" />
+    <icon height="100" src="assets/images/ios/gs-icon-ios-100.png" width="100" />
+    <splash src="assets/images/ios/Default@2x~universal~anyany.jpg" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+</widget>
