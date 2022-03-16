@@ -17,7 +17,7 @@ Prompts can be news, memes, jokes, fun facts, discussion topics, and riddles, as
 
 
 
-###  
+###
 
 ##### (Intended) Tech Stack:
   
