@@ -14,8 +14,8 @@
 Prompts can be news, memes, jokes, fun facts, discussion topics, and riddles, as well as occasional recommendations for relevant products, restaurants or activities.
 
 3. Groups can interact with the bot, and each other, either by writing in the chat, or by using a set of quick buttons for commands.
-  * Groups vote on changes to the group's settings and member list
 	* Commands include initiating votes or inviting the group to a game.
+	* Groups vote on changes to the group's settings and member list
 	* An "app store" allows the group to further personalize its experience, with possibilities hypothetically ranging from custom emojis to internal chess tournaments.
 
 4. The bot also serves as a moderator, tracking inequalities and imbalances, counting votes, and enforcing rules.
